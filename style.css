@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Login start here */
+#login-wrapper {
+  background: #000;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-css {
+  margin: auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input-box-wrapper {
+  background: #fff;
+  height: 74vh;
+  width: 36%;
+  margin: auto;
+  border-radius: 5px;
+}
+#login-wrapper h4 {
+  text-align: center;
+  margin-bottom: 10%;
+  margin-top: 0%;
+  background: #EF0E8B;
+  color: #fff;
+  margin-left: -12px;
+  margin-right: -12px;
+  font-family: cursive;
+  padding: 8px;
+  border-radius: 5px 5px 0px 0px;
+}
+.input-box {
+}
+.login-wrapper {
+  border: 1px solid #ddd;
+  margin-bottom: 3%;
+  border-radius: 5px;
+}
+.login-wrapper i {
+  padding: 8px 7px;
+  background: #EF0E8B;
+  height: 32px;
+  width: 9%;
+  border-radius: 5px 0px 0px 5px;
+  color: #fff;
+}
+.login-wrapper input {
+  border: none;
+  padding: 3px 37px;
+  width: 89%;
+}
+.ck-box {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+.check-box {
+  margin-right: 3%;
+}
+.input-box .login {
+}
+.input-box .pass {
+}
+.input-box-wrapper .forget-pass-text {
+  width: 100%;
+  display: block;
+  text-align: right;
+}
+.login-btn {
+}
+.login-btn {
+  width: 100%;
+  background: #ef0e8b;
+  color: #fff;
+  border: none;
+  padding: 1%;
+  margin-top: 4%;
+  border-radius: 5px;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+}
+.login-btn:hover {
+  background: #4b0d2f;
+}
+.create-acc {
+  margin: auto;
+  text-align: center;
+  margin-top: 3%;
+}
+.create-acc i {
+  font-size: 1rem;
+  border: 1px solid #fff;
+  background: #2767b7;
+  color: #fff;
+  height: 34px;
+  width: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  border-radius: 50%;
+}
+.create-acc a {
+  display: inline-block;
+
+  text-decoration: none;
+
+  padding: 6%;
+}
+p {
+  text-align: center;
+  margin-top: 6%;
+}
+/* Login end here */
+
+/* Transition area start here */
+#transition-area{
+  display: none;
+  background: #1e1c1c;
+  height: 100vh;
+}
+.deposit {
+  background-color: #5e4ec6;
+  color: #fff;
+  padding: 22px 32px;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 3%;
+}
+.deposit2 {
+  background-color: #f0966f;
+  color: #fff;
+  padding: 22px 32px;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 3%;
+}
+.deposit3 {
+  background-color: #ee9b01;
+  color: #fff;
+  padding: 22px 32px;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 3%;
+}
+/* Transition area end here */
+/* Deposit start here */
+.deposit-main {
+  background: #fff;
+  box-shadow: 3px 2px 6px #ddd, -3px -2px 6px #ddd;
+  padding: 4% 2%;
+  margin: auto;
+  border-radius: 5px;
+  margin-top: 12% !important;
+}
+.deposit-main input {
+  width: 100%;
+  margin-bottom: 6%;
+  padding: 7px 14px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+.depo-main-button {
+  background: #359e3e;
+  color: #fff;
+  border: none;
+  padding: 8px 30px;
+  border-radius: 5px;
+}
+.withdraw-main-button {
+  background: #359e3e;
+  color: #fff;
+  border: none;
+  padding: 8px 30px;
+  border-radius: 5px;
+}
+/* Deposit end here */

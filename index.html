@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pineer-Bank</title>
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="fontawesome/css/fontawesome.min.css" />
+    <!-- Boostrap5 -->
+    <link rel="stylesheet" href="bs5/css/bootstrap.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css">
+  </head>
+  <body>
+    <!-- Login start here -->
+    <div id="login-wrapper">
+      <div class="container">
+        <div class="row">
+          <div
+            class="
+              col-xl-12 col-xxl-12 col-lg-12 col-md-12 col-sm-12 col-12 input-box-wrapper">
+            <h4>Shuvo Devware</h4>
+
+            <div class="input-box">
+              <div class="login-wrapper">
+                <i class="fas fa-user"></i>
+                <input type="text" placeholder="Enter Your Gmail" />
+              </div>
+              <div class="login-wrapper">
+                <i class="fas fa-lock"></i>
+                <input type="password" id="password" placeholder="Enter Your Password" />
+              </div>
+            </div>
+           <div class="ck-box">
+            <input class="check-box" type="checkbox" onclick="mypass()"> Show Password
+           </div>
+            <a class="forget-pass-text" href="">Forget Password?</a>
+              <button class="login-btn" id="log-main-buttn">Login</button>
+              
+  
+            <div class="create-acc">
+              <a href=""><i class="fab fa-facebook"></i></a>
+              <a href=""><i class="fab fa-google"></i></a>
+            </div>
+            <p>
+              Dont have an account
+              <a class="another-para" href="">Sign up</a> here
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Login end here -->
+
+    <!-- Transition area start here -->
+    <div id="transition-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-xl-3 col-xxl-3 col-md-3 col-sm-12 col-10 deposit">
+                    <h5>Deposit</h5>
+                    <h2>$<span id="currentDeposit">00</span></h2>
+                </div>
+                <div class="col-lg-3 col-xl-3 col-xxl-3 col-md-3 col-sm-12 col-10 deposit2">
+                    <h5>Withdraw</h5>
+                    <h2>$ <span id="currentWithdraw">00</span></h2>
+                </div>
+                <div class="col-lg-3 col-xl-3 col-xxl-3 col-md-3 col-sm-12 col-10 deposit3">
+                    <h5>Balance</h5>
+                    <h2>$ <span id="currentBalance">1240</span></h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-5 col-xl-5 col-xxl-5 col-md-5 col-10 col-sm-12 mt-5 deposit-main">
+                    <h5>Deposit</h5>
+                    <input id="depositAmount" type="text" placeholder="$ Amount you want to deposit">
+                      <button id="addDeposit" class="depo-main-button">Deposit</button>
+                </div>
+                <div class="col-lg-5 col-xl-5 col-xxl-5 col-md-5 col-10 col-sm-12 mt-5 deposit-main">
+                    <h5>Withdraw</h5>
+                    <input id="withdrawAmount" type="text" placeholder="$ Amount you want to withdraw">
+                        <button id="addWithdraw" class="withdraw-main-button">Withdraw</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Transition area end here -->
+
+    <!-- boostrap -->
+    <script src="bs5/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+/* login start here */
+@media screen and (max-width:500px) {
+    .input-box-wrapper {
+        height: 84vh;
+        width: 70%;
+    }
+    
+}
+
+/* login end here */
+/* Transition area start here */
+@media screen and (max-width:992px) {
+    .input-box-wrapper {
+        height: 92vh;
+        width: 48%;
+    }
+}
+@media screen and (max-width:768px) {
+    .input-box-wrapper {
+        height: 85vh;
+        width: 73%;
+    }
+    .deposit {
+        margin-bottom: 2%;
+        margin-top: 7%;
+    }
+    .deposit2 {
+        margin-bottom: 2%;
+    }
+    .deposit3 {
+        margin-bottom: 2%;
+    }
+    #transition-area {
+        height: auto;
+    }
+}
+@media screen and (max-width:333px) {
+    .input-box-wrapper {
+        height: 78vh !important;
+        width: 93%;
+    }
+    .login-wrapper i {
+        padding: 11px 6px;
+        height: 30px;
+        width: 9%;
+    }
+}
+@media screen and (max-width:272px) {
+    .login-wrapper input {
+        padding: 3px 11px;
+        width: 82%;
+    }
+    .login-wrapper i {
+        padding: 8px 7px;
+        height: 32px;
+        width: 14%;
+    }
+}
+@media screen and (max-width:1326px) {
+    .input-box-wrapper {
+        height: 94vh;
+    }
+}
+/* Transition area end here */
